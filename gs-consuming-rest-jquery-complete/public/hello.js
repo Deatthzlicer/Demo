@@ -10,9 +10,9 @@ $(document).ready(function() {
     	    $.ajax({
     	        url: "http:/localhost/SchoolController"
     	    }).then(function(data) {
-    	       $('.ynane').append(data.fname);
-    	       $('.ynane').append(data.yname);
-    	       $('.dnane').append(data.dname);
+    	       $('#ynane').append(data.fname);
+    	       $('#ynane').append(data.yname);
+    	       $('#dnane').append(data.dname);
     	    };
     	});
        

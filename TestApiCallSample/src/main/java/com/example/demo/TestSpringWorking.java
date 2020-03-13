@@ -2,7 +2,7 @@ package com.example.demo;
 import org.springframework.stereotype.Controller;
 
 @Controller
-@RequestMapping("books")
+@RequestMapping("Test")
 public class TestSpringWorking {
 
 
